@@ -1,0 +1,67 @@
+/* 登陆页面样式 */
+
+.myform {
+    margin: 100px auto;
+    padding: 10px;
+    width: 360px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.myform h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.myform label {
+    display: inline-block;
+    width: 70px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.myform input {
+    width: 200px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    outline: 0;
+}
+
+.myform .input:focus {
+    border-color: #f46f;
+    box-shadow: 0 0 4px #f46f;
+}
+
+.myform .btn {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.myform input[type="submit"] {
+    width: 220px;
+    height: 32px;
+    background: #3683ff;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.myform input[type="submit"]:hover {
+    background: rgba(72, 137, 255, 0.93);
+}
+
+.error {
+    display: none;
+    font-size: 12px;
+    margin-left: 80px;
+    color: #f46;
+}
+.register{
+    Text-align:center;
+}
